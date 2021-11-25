@@ -58,6 +58,13 @@ header
 
 }
 
+.headerFixed {
+    position: fixed;
+    background-color: #272a49f2;
+    transition: background-color 0.1s linear;
+}
+
+
 /*
 nav
 */
@@ -480,6 +487,8 @@ features
 }
 
 
+
+
 @media (max-width:768px) {
 
 
@@ -500,6 +509,8 @@ features
     .intro__text {
         font-size: 25px;
     }
+
+
 
 /*    footer*/
 
