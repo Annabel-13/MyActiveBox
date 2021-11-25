@@ -61,7 +61,12 @@ header
 .headerFixed {
     position: fixed;
     background-color: #272a49f2;
-    transition: background-color 0.1s linear;
+    height: auto;
+}
+
+.headerFixed .header__inner {
+    padding: 15px;
+    border-bottom: 0;
 }
 
 
