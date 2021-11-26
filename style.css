@@ -541,12 +541,16 @@ features
 
 /*    header*/
 
+    .header {
+        padding-top: 35px;
+        padding-bottom: 0;
+    }
+
     .nav {
 
         flex-direction:column;
         align-items: center;
-
-
+        display: none;
 
     }
 
@@ -554,6 +558,12 @@ features
         margin-left: 0;
         margin-bottom: 5px;
     }
+
+    .navVisible {
+        display: flex;
+    }
+
+
 
 /*   intro*/
 
