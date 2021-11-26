@@ -381,6 +381,55 @@ features
     margin-top: 20px;
 }
 
+
+
+
+/*slider*/
+
+
+.review__slider {
+    height: 500px;
+    overflow: hidden;
+}
+
+
+.slick-dots {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.slick-dots button {
+
+    width: 10px;
+    height: 10px;
+
+    text-decoration: none;
+    color: transparent;
+    border-radius: 75%;
+    background-color: #ffffff5e;
+    border: none;
+
+    margin: 5px;
+
+
+
+}
+
+.slick-active button{
+    background-color: white;
+}
+
 /*download*/
 
 .download {

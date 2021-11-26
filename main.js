@@ -19,7 +19,19 @@ logo.on('click', function () {
 
         nav.toggleClass('navVisible');
 
-
-
 });/* / open nav with 376px screen*/
 
+/*reviews*/
+
+let slider = $('#reviewSlider');
+
+$(document).ready(function(){
+    slider.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        arrows: false,
+        dots: true
+});
+});
