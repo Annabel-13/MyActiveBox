@@ -1,6 +1,6 @@
 const header = $('#fixed');
-const logo = $('#logoJS');
-const nav = $('#navJS');
+const logo = $('#logo');
+const nav = $('#nav');
 
 
 /*fixed header*/
